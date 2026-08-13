@@ -1,7 +1,7 @@
 """
 tools.py
 
-The five FitFindr tools. Each tool is a standalone function that can be
+The five Rerack tools. Each tool is a standalone function that can be
 called and tested independently before being wired into the agent loop.
 
 Complete and test each tool in this order:
@@ -23,6 +23,13 @@ from groq import Groq
 from utils.data_loader import load_listings
 
 load_dotenv()
+
+_MODEL = "llama-3.3-70b-versatile"
+_OUTFIT_TEMP_EMPTY_WARDROBE = 0.7
+_OUTFIT_TEMP_WITH_WARDROBE = 0.5
+_OUTFIT_MAX_TOKENS = 400
+_FITCARD_TEMP = 0.9
+_FITCARD_MAX_TOKENS = 200
 
 
 # ── Groq client ───────────────────────────────────────────────────────────────
@@ -92,7 +99,9 @@ def search_listings(
         description: Keywords describing what the user is looking for
                      (e.g., "vintage graphic tee").
         size:        Size string to filter by, or None to skip size filtering.
-                     Uses case-insensitive SUBSTRING match — "M" matches "S/M".
+                     Matched as a case-insensitive token against the listing's
+                     size split on whitespace/slash — "M" matches "S/M" but not
+                     "US 8".
         max_price:   Maximum price (inclusive), or None to skip price filtering.
         listings:    Pre-loaded listings list. Pass session["all_listings_cache"]
                      to avoid re-reading the file. Falls back to load_listings().
@@ -114,9 +123,13 @@ def search_listings(
 
         candidates = all_listings
         if max_price is not None:
-            candidates = [l for l in candidates if l["price"] <= max_price]
+            candidates = [lst for lst in candidates if lst["price"] <= max_price]
         if size is not None:
-            candidates = [l for l in candidates if size.lower() in l["size"].lower()]
+            candidates = [
+                lst
+                for lst in candidates
+                if size.lower() in re.split(r"[\s/]+", lst["size"].lower())
+            ]
 
         desc_tokens = _tokenize(description)
         if not desc_tokens:
@@ -213,7 +226,7 @@ def suggest_outfit(new_item: dict, wardrobe: dict) -> str:
             "to pair with it, describe the vibe in 1 sentence, and mention one occasion "
             "it works for. Be specific. Avoid generic advice."
         )
-        temperature = 0.7
+        temperature = _OUTFIT_TEMP_EMPTY_WARDROBE
     else:
         lines = []
         for w_item in wardrobe["items"]:
@@ -237,15 +250,15 @@ def suggest_outfit(new_item: dict, wardrobe: dict) -> str:
             "combination works (color, vibe, silhouette). Only use pieces from the "
             "wardrobe list above. Do not invent items they don't own."
         )
-        temperature = 0.5
+        temperature = _OUTFIT_TEMP_WITH_WARDROBE
 
     try:
         client = _get_groq_client()
         response = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
-            model="llama-3.3-70b-versatile",
+            model=_MODEL,
             temperature=temperature,
-            max_tokens=400,
+            max_tokens=_OUTFIT_MAX_TOKENS,
         )
         return response.choices[0].message.content.strip()
     except Exception:
@@ -325,9 +338,9 @@ def create_fit_card(
         client = _get_groq_client()
         response = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
-            model="llama-3.3-70b-versatile",
-            temperature=0.9,
-            max_tokens=200,
+            model=_MODEL,
+            temperature=_FITCARD_TEMP,
+            max_tokens=_FITCARD_MAX_TOKENS,
         )
         return response.choices[0].message.content.strip()
     except Exception:
@@ -373,19 +386,21 @@ def compare_prices(
         price <= avg * 1.10  →  "fair"
         price >  avg * 1.10  →  "overpriced"
 
+    A fifth verdict, "unavailable", is returned if an unexpected error occurs
+    (e.g. a malformed item dict missing expected keys) — never raises.
     """
     try:
         all_listings = listings if listings is not None else load_listings()
-        others = [l for l in all_listings if l["id"] != item["id"]]
+        others = [lst for lst in all_listings if lst["id"] != item["id"]]
         item_tags = set(item["style_tags"])
 
         comparables = [
-            l
-            for l in others
-            if l["category"] == item["category"] and len(set(l["style_tags"]) & item_tags) >= 1
+            lst
+            for lst in others
+            if lst["category"] == item["category"] and len(set(lst["style_tags"]) & item_tags) >= 1
         ]
         if not comparables:
-            comparables = [l for l in others if l["category"] == item["category"]]
+            comparables = [lst for lst in others if lst["category"] == item["category"]]
         if not comparables:
             return {
                 "verdict": "no comparables",
@@ -395,7 +410,7 @@ def compare_prices(
                 "comparable_count": 0,
             }
 
-        prices = [l["price"] for l in comparables]
+        prices = [lst["price"] for lst in comparables]
         avg = round(sum(prices) / len(prices), 2)
         price = item["price"]
 
@@ -515,7 +530,8 @@ if __name__ == "__main__":
     if results:
         verdict = compare_prices(results[0])
         print(
-            f"Verdict: {verdict['verdict']} (avg ${verdict['avg_price']}, n={verdict['comparable_count']})"
+            f"Verdict: {verdict['verdict']} "
+            f"(avg ${verdict['avg_price']}, n={verdict['comparable_count']})"
         )
 
     print("\n=== Tool 2: retry_search (no-results case) ===")
@@ -523,7 +539,7 @@ if __name__ == "__main__":
     print(f"Retry found {len(retry['results'])} results. Loosened: {retry['loosened']}")
 
     print("\n=== Tool 4: suggest_outfit ===")
-    from utils.data_loader import get_example_wardrobe, get_empty_wardrobe
+    from utils.data_loader import get_example_wardrobe
 
     suggestion = ""
     if results:

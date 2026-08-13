@@ -1,9 +1,9 @@
 """
 app.py
 
-Gradio interface for FitFindr. Wires handle_query() to run_agent() and maps
-session results to the three output panels. Also handles style profile memory:
-loading a saved wardrobe by user ID and saving new items to a profile.
+Gradio interface for Rerack. Wires handle_query() to run_agent() and maps
+session results to the three output panels. Lets the user pick between a
+populated example wardrobe and an empty one via a radio selector.
 
 Run with:
     python app.py
@@ -14,20 +14,35 @@ Then open the localhost URL shown in your terminal (usually http://localhost:786
 import gradio as gr
 
 from agent import run_agent
-from utils.data_loader import get_example_wardrobe, get_empty_wardrobe
-
+from utils.data_loader import get_empty_wardrobe, get_example_wardrobe
 
 # ── Nord dark theme ───────────────────────────────────────────────────────────
 
 _nord_blue = gr.themes.Color(
-    c50="#ECEFF4", c100="#E5E9F0", c200="#D8DEE9", c300="#88C0D0",
-    c400="#81A1C1", c500="#5E81AC", c600="#4C566A", c700="#434C5E",
-    c800="#3B4252", c900="#2E3440", c950="#242933",
+    c50="#ECEFF4",
+    c100="#E5E9F0",
+    c200="#D8DEE9",
+    c300="#88C0D0",
+    c400="#81A1C1",
+    c500="#5E81AC",
+    c600="#4C566A",
+    c700="#434C5E",
+    c800="#3B4252",
+    c900="#2E3440",
+    c950="#242933",
 )
 _nord_neutral = gr.themes.Color(
-    c50="#ECEFF4", c100="#E5E9F0", c200="#D8DEE9", c300="#4C566A",
-    c400="#434C5E", c500="#3B4252", c600="#2E3440", c700="#272C38",
-    c800="#22262F", c900="#1E2128", c950="#191D24",
+    c50="#ECEFF4",
+    c100="#E5E9F0",
+    c200="#D8DEE9",
+    c300="#4C566A",
+    c400="#434C5E",
+    c500="#3B4252",
+    c600="#2E3440",
+    c700="#272C38",
+    c800="#22262F",
+    c900="#1E2128",
+    c950="#191D24",
 )
 
 _theme = gr.themes.Base(
@@ -91,12 +106,12 @@ def handle_query(
     wardrobe_choice: str,
 ) -> tuple:
     """Called by Gradio when the user clicks 'Find it' or presses Enter."""
-    no_results = (gr.update(value="", visible=False), "", "", "")
-
     if not user_query.strip():
         return (gr.update(value="Please enter a search query.", visible=True), "", "", "")
 
-    wardrobe = get_example_wardrobe() if wardrobe_choice == "Example wardrobe" else get_empty_wardrobe()
+    wardrobe = (
+        get_example_wardrobe() if wardrobe_choice == "Example wardrobe" else get_empty_wardrobe()
+    )
     session = run_agent(query=user_query, wardrobe=wardrobe)
 
     if session["error"]:
@@ -113,8 +128,7 @@ def handle_query(
     )
     if verdict.get("verdict") and verdict.get("comparable_count", 0) >= 3:
         listing_text += (
-            f"\n\nPrice verdict: {verdict['verdict']} "
-            f"(avg comparable: ${verdict['avg_price']:.0f})"
+            f"\n\nPrice verdict: {verdict['verdict']} (avg comparable: ${verdict['avg_price']:.0f})"
         )
     if session.get("retry_loosened"):
         listing_text += "\n\nNote: " + "; ".join(session["retry_loosened"]) + "."
@@ -143,9 +157,9 @@ EXAMPLE_QUERIES = [
 
 
 def build_interface():
-    with gr.Blocks(title="FitFindr") as demo:
+    with gr.Blocks(title="Rerack") as demo:
         gr.Markdown(
-            "# FitFindr\n"
+            "# Rerack\n"
             "Find secondhand pieces and get outfit ideas based on your wardrobe. "
             "Describe what you're looking for — include size and price to filter."
         )
@@ -196,8 +210,12 @@ def build_interface():
         all_outputs = [error_md, listing_output, outfit_output, fitcard_output]
         search_inputs = [query_input, wardrobe_choice]
 
-        submit_btn.click(fn=handle_query, inputs=search_inputs, outputs=all_outputs, show_progress="full")
-        query_input.submit(fn=handle_query, inputs=search_inputs, outputs=all_outputs, show_progress="full")
+        submit_btn.click(
+            fn=handle_query, inputs=search_inputs, outputs=all_outputs, show_progress="full"
+        )
+        query_input.submit(
+            fn=handle_query, inputs=search_inputs, outputs=all_outputs, show_progress="full"
+        )
         clear_btn.click(fn=clear_outputs, outputs=all_outputs)
 
     return demo

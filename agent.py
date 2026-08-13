@@ -1,7 +1,7 @@
 """
 agent.py
 
-The FitFindr planning loop. Orchestrates the five tools in response to a
+The Rerack planning loop. Orchestrates the five tools in response to a
 natural language user query, passing state between them via a session dict.
 
 Usage:
@@ -18,11 +18,11 @@ Usage:
 
 import re
 
-from tools import search_listings, suggest_outfit, create_fit_card, compare_prices, retry_search
-from utils.data_loader import load_listings, get_example_wardrobe, get_empty_wardrobe
-
+from tools import compare_prices, create_fit_card, retry_search, search_listings, suggest_outfit
+from utils.data_loader import get_empty_wardrobe, get_example_wardrobe, load_listings
 
 # ── session state ─────────────────────────────────────────────────────────────
+
 
 def _new_session(query: str, wardrobe: dict) -> dict:
     """
@@ -39,11 +39,11 @@ def _new_session(query: str, wardrobe: dict) -> dict:
         "all_listings_cache": None,  # loaded once, shared by search + compare
         "search_results": [],
         "retry_attempted": False,
-        "retry_loosened": [],        # list[str] — surfaces in Gradio listing panel
+        "retry_loosened": [],  # list[str] — surfaces in Gradio listing panel
         # Selected item
         "selected_item": None,
         # Tool outputs
-        "price_verdict": None,       # dict from compare_prices
+        "price_verdict": None,  # dict from compare_prices
         "outfit_suggestion": None,
         "fit_card": None,
         # Error (set on early termination — check this first in handle_query)
@@ -52,6 +52,7 @@ def _new_session(query: str, wardrobe: dict) -> dict:
 
 
 # ── query parser ──────────────────────────────────────────────────────────────
+
 
 def _parse_query(query: str) -> dict:
     """
@@ -62,16 +63,18 @@ def _parse_query(query: str) -> dict:
         {"description": str, "size": str | None, "max_price": float | None}
     """
     price_re = re.search(
-        r'(?:under|below|max|less\s+than|<)\s*\$?\s*(\d+(?:\.\d+)?)'
-        r'|\$(\d+(?:\.\d+)?)',
-        query, re.IGNORECASE
+        r"(?:under|below|max|less\s+than|<)\s*\$?\s*(\d+(?:\.\d+)?)"
+        r"|\$(\d+(?:\.\d+)?)",
+        query,
+        re.IGNORECASE,
     )
     max_price = float(next(g for g in price_re.groups() if g)) if price_re else None
 
     size_re = re.search(
-        r'\b(?:size\s+)?(?:W\d{2}(?:\s+L\d{2})?'
-        r'|US\s*\d+(?:\.\d+)?|UK\s*\d+|XXS|XS|XL|XXL|[SML])\b',
-        query, re.IGNORECASE
+        r"\b(?:size\s+)?(?:W\d{2}(?:\s+L\d{2})?"
+        r"|US\s*\d+(?:\.\d+)?|UK\s*\d+|XXS|XS|XL|XXL|[SML])\b",
+        query,
+        re.IGNORECASE,
     )
     size = size_re.group(0).strip() if size_re else None
 
@@ -81,11 +84,18 @@ def _parse_query(query: str) -> dict:
     if size_re:
         description = description.replace(size_re.group(0), " ")
 
-    for filler in [r"i'?m looking for", r"find me", r"looking for",
-                   r"i want", r"i need", r"can you find", r"show me"]:
+    for filler in [
+        r"i'?m looking for",
+        r"find me",
+        r"looking for",
+        r"i want",
+        r"i need",
+        r"can you find",
+        r"show me",
+    ]:
         description = re.sub(filler, " ", description, flags=re.IGNORECASE)
 
-    description = re.sub(r'\s+', ' ', description).strip().lower()
+    description = re.sub(r"\s+", " ", description).strip().lower()
     if not description:
         description = query.lower().strip()
 
@@ -94,10 +104,15 @@ def _parse_query(query: str) -> dict:
 
 # ── planning loop ─────────────────────────────────────────────────────────────
 
+
 def run_agent(query: str, wardrobe: dict) -> dict:
     """
-    Main agent entry point. Runs the FitFindr planning loop for a single
+    Main agent entry point. Runs the Rerack planning loop for a single
     user interaction and returns the completed session dict.
+
+    Parses the query, searches listings (retrying with loosened constraints
+    if nothing matches), then compares prices, suggests an outfit, and builds
+    a fit card for the top result.
 
     Args:
         query:    Natural language user request.
@@ -106,66 +121,6 @@ def run_agent(query: str, wardrobe: dict) -> dict:
     Returns:
         Completed session dict. Always check session["error"] first — if set,
         outfit_suggestion and fit_card will be None.
-
-    Planning loop — implement the TODO steps below in order:
-
-        Step 1:  session = _new_session(query, wardrobe)
-
-        Step 2:  Load listings once:
-                     session["all_listings_cache"] = load_listings()
-                 Pass this cache into both search_listings() and compare_prices()
-                 so the JSON file is read only once per run_agent() call.
-
-        Step 3:  Parse query:
-                     session["parsed"] = _parse_query(query)
-                 Unpack:
-                     description = session["parsed"]["description"]
-                     size        = session["parsed"]["size"]
-                     max_price   = session["parsed"]["max_price"]
-
-        Step 4:  Primary search:
-                     results = search_listings(
-                         description, size=size, max_price=max_price,
-                         listings=session["all_listings_cache"]
-                     )
-                     session["search_results"] = results
-
-        Step 5:  If results empty → retry:
-                     retry = retry_search(description, size, max_price, listings=session["all_listings_cache"])
-                     session["retry_attempted"] = True
-                     session["retry_loosened"] = retry["loosened"]
-                     results = retry["results"]
-                     session["search_results"] = results
-
-        Step 6:  If still empty → error and return early:
-                     session["error"] = (
-                         f"No listings found for '{description}' "
-                         "even after relaxing filters. Try different keywords."
-                     )
-                     return session
-
-        Step 7:  Select top result:
-                     session["selected_item"] = results[0]
-
-        Step 8:  Compare prices (ALWAYS — runs on both normal and retry path):
-                     session["price_verdict"] = compare_prices(
-                         session["selected_item"],
-                         listings=session["all_listings_cache"]
-                     )
-
-        Step 9:  Suggest outfit:
-                     session["outfit_suggestion"] = suggest_outfit(
-                         session["selected_item"], wardrobe
-                     )
-
-        Step 10: Create fit card:
-                     session["fit_card"] = create_fit_card(
-                         session["outfit_suggestion"],
-                         session["selected_item"],
-                         price_verdict=session["price_verdict"],
-                     )
-
-        Step 11: return session
     """
     session = _new_session(query, wardrobe)
 
@@ -174,8 +129,8 @@ def run_agent(query: str, wardrobe: dict) -> dict:
 
     session["parsed"] = _parse_query(query)
     description = session["parsed"]["description"]
-    size        = session["parsed"]["size"]
-    max_price   = session["parsed"]["max_price"]
+    size = session["parsed"]["size"]
+    max_price = session["parsed"]["max_price"]
 
     results = search_listings(description, size=size, max_price=max_price, listings=cache)
     session["search_results"] = results
@@ -216,7 +171,8 @@ if __name__ == "__main__":
     if session["error"]:
         print(f"Error: {session['error']}")
     else:
-        print(f"Found:   {session['selected_item']['title']} — ${session['selected_item']['price']}")
+        item = session["selected_item"]
+        print(f"Found:   {item['title']} — ${item['price']}")
         print(f"Verdict: {session['price_verdict']['verdict']}")
         print(f"\nOutfit:\n{session['outfit_suggestion']}")
         print(f"\nFit card:\n{session['fit_card']}")
