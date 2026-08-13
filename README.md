@@ -19,8 +19,6 @@
 
 Describe what you want in plain English. Rerack searches a mock listings dataset, compares prices against similar items, suggests an outfit from your wardrobe, and writes a shareable caption.
 
-*A short demo video/GIF walking through a query is a planned addition, not yet recorded.*
-
 ## About
 
 Rerack is a small agent that plans and executes a fixed sequence of tool calls instead of letting an LLM decide what to do next at each step. Given a query like "vintage graphic tee under $30, size M," it parses the request with regex, searches a mock dataset, retries with loosened constraints if nothing matches, benchmarks the price against comparable listings, and calls an LLM twice: once for outfit ideas, once for a caption.
