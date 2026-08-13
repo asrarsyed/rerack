@@ -4,519 +4,2172 @@
     "title": "Vintage Levi's 501 Jeans — Medium Wash",
     "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
     "category": "bottoms",
-    "style_tags": ["vintage", "classic", "denim", "streetwear"],
+    "style_tags": [
+      "vintage",
+      "classic",
+      "denim",
+      "streetwear"
+    ],
     "size": "W30 L30",
     "condition": "good",
-    "price": 38.00,
-    "colors": ["blue", "indigo"],
+    "price": 38,
+    "colors": [
+      "blue",
+      "indigo"
+    ],
     "brand": "Levi's",
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-20"
   },
   {
     "id": "lst_002",
     "title": "Y2K Baby Tee — Butterfly Print",
     "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
     "category": "tops",
-    "style_tags": ["y2k", "vintage", "graphic tee", "cottagecore"],
+    "style_tags": [
+      "y2k",
+      "vintage",
+      "graphic tee",
+      "cottagecore"
+    ],
     "size": "S/M",
     "condition": "excellent",
-    "price": 18.00,
-    "colors": ["white", "pink", "purple"],
+    "price": 18,
+    "colors": [
+      "white",
+      "pink",
+      "purple"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-02"
   },
   {
     "id": "lst_003",
     "title": "Oversized Flannel Shirt — Plaid Red/Black",
     "description": "Classic oversized flannel. Great layering piece. A few tiny pulls in the fabric but nothing visible when worn.",
     "category": "tops",
-    "style_tags": ["grunge", "vintage", "flannel", "streetwear", "layering"],
-    "size": "XL (oversized)",
+    "style_tags": [
+      "grunge",
+      "vintage",
+      "flannel",
+      "streetwear",
+      "layering"
+    ],
+    "size": "XL",
     "condition": "good",
-    "price": 22.00,
-    "colors": ["red", "black"],
+    "price": 22,
+    "colors": [
+      "red",
+      "black"
+    ],
     "brand": "Woolrich",
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-05-28"
   },
   {
     "id": "lst_004",
     "title": "90s Track Jacket — Navy/White Stripe",
     "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight — great for layering.",
     "category": "outerwear",
-    "style_tags": ["90s", "vintage", "athletic", "streetwear"],
+    "style_tags": [
+      "90s",
+      "vintage",
+      "athletic",
+      "streetwear"
+    ],
     "size": "M",
     "condition": "excellent",
-    "price": 45.00,
-    "colors": ["navy", "white"],
+    "price": 45,
+    "colors": [
+      "navy",
+      "white"
+    ],
     "brand": "Champion",
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-07-01"
   },
   {
     "id": "lst_005",
     "title": "Corduroy Wide-Leg Pants — Rust",
     "description": "Beautiful rust-colored cords in a wide-leg silhouette. High-waisted. Minor pilling on the seat but otherwise great condition.",
     "category": "bottoms",
-    "style_tags": ["vintage", "cottagecore", "70s", "earth tones"],
+    "style_tags": [
+      "vintage",
+      "cottagecore",
+      "earth tones"
+    ],
     "size": "W28",
     "condition": "good",
-    "price": 32.00,
-    "colors": ["rust", "orange"],
+    "price": 32,
+    "colors": [
+      "rust",
+      "orange"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-05-18"
   },
   {
     "id": "lst_006",
     "title": "Graphic Tee — 2003 Tour Bootleg Style",
     "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
     "category": "tops",
-    "style_tags": ["graphic tee", "vintage", "grunge", "streetwear", "band tee"],
+    "style_tags": [
+      "graphic tee",
+      "vintage",
+      "grunge",
+      "streetwear",
+      "band tee"
+    ],
     "size": "L",
     "condition": "good",
-    "price": 24.00,
-    "colors": ["black"],
+    "price": 24,
+    "colors": [
+      "black"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-25"
   },
   {
     "id": "lst_007",
     "title": "Denim Jacket — Light Wash, Cropped",
     "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas — no patches or pins but would be perfect to customize.",
     "category": "outerwear",
-    "style_tags": ["denim", "vintage", "classic", "streetwear"],
+    "style_tags": [
+      "denim",
+      "vintage",
+      "classic",
+      "streetwear"
+    ],
     "size": "S",
     "condition": "excellent",
-    "price": 42.00,
-    "colors": ["light blue"],
+    "price": 42,
+    "colors": [
+      "light blue"
+    ],
     "brand": "Wrangler",
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-07-10"
   },
   {
     "id": "lst_008",
     "title": "Knit Cardigan — Chunky Brown",
     "description": "Super cozy oversized cardigan. Earth-tone brown, chunky knit. Hits at the hip. Perfect for layering over anything.",
     "category": "tops",
-    "style_tags": ["cottagecore", "cozy", "oversized", "earth tones", "knitwear"],
-    "size": "One Size / Oversized",
+    "style_tags": [
+      "cottagecore",
+      "cozy",
+      "oversized",
+      "earth tones",
+      "knitwear"
+    ],
+    "size": "One Size",
     "condition": "excellent",
-    "price": 35.00,
-    "colors": ["brown", "tan"],
+    "price": 35,
+    "colors": [
+      "brown",
+      "tan"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-05-30"
   },
   {
     "id": "lst_009",
     "title": "Platform Mary Janes — Black Patent",
     "description": "Patent leather platform Mary Janes. 1.5 inch platform. Some light scuffing on the toe box but nothing major. UK size 5.",
     "category": "shoes",
-    "style_tags": ["y2k", "goth", "platform", "90s"],
+    "style_tags": [
+      "y2k",
+      "goth",
+      "platform",
+      "90s"
+    ],
     "size": "US 7",
     "condition": "good",
-    "price": 55.00,
-    "colors": ["black"],
+    "price": 55,
+    "colors": [
+      "black"
+    ],
     "brand": "Demonia",
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-14"
   },
   {
     "id": "lst_010",
     "title": "Vintage Windbreaker — Color Block Purple/Teal",
     "description": "Color block windbreaker from the early 90s. Packable, lightweight. The kind your dad definitely owned. Full zip with elastic cuffs.",
     "category": "outerwear",
-    "style_tags": ["90s", "vintage", "athletic", "color block", "streetwear"],
+    "style_tags": [
+      "90s",
+      "vintage",
+      "athletic",
+      "color block",
+      "streetwear"
+    ],
     "size": "L",
     "condition": "good",
-    "price": 40.00,
-    "colors": ["purple", "teal", "black"],
+    "price": 40,
+    "colors": [
+      "purple",
+      "teal",
+      "black"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-05-22"
   },
   {
     "id": "lst_011",
     "title": "Low-Rise Cargo Pants — Khaki",
     "description": "Y2K era low-rise cargo pants. Lots of pockets. Khaki color, slightly distressed at the hems. Great for layering with a long tee.",
     "category": "bottoms",
-    "style_tags": ["y2k", "cargo", "2000s", "streetwear"],
+    "style_tags": [
+      "y2k",
+      "cargo",
+      "2000s",
+      "streetwear"
+    ],
     "size": "W29",
     "condition": "fair",
-    "price": 27.00,
-    "colors": ["khaki", "tan"],
+    "price": 27,
+    "colors": [
+      "khaki",
+      "tan"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-07-05"
   },
   {
     "id": "lst_012",
     "title": "Oversized Crewneck Sweatshirt — Vintage Navy",
     "description": "Perfectly faded navy crewneck. Genuinely vintage — not manufactured distressed. Ribbed cuffs and hem. No graphics, clean.",
     "category": "tops",
-    "style_tags": ["vintage", "basics", "oversized", "classic"],
-    "size": "XL (fits oversized)",
+    "style_tags": [
+      "vintage",
+      "basics",
+      "oversized",
+      "classic"
+    ],
+    "size": "XL",
     "condition": "good",
-    "price": 20.00,
-    "colors": ["navy"],
+    "price": 20,
+    "colors": [
+      "navy"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-06-08"
   },
   {
     "id": "lst_013",
     "title": "90s Silk Slip Dress — Floral, Midi Length",
     "description": "Delicate 90s slip dress in a muted floral print. Midi length, adjustable straps. Light snag on the side seam — not visible when worn.",
     "category": "bottoms",
-    "style_tags": ["90s", "vintage", "feminine", "floral", "cottagecore"],
+    "style_tags": [
+      "90s",
+      "vintage",
+      "feminine",
+      "floral",
+      "cottagecore"
+    ],
     "size": "M",
     "condition": "good",
-    "price": 30.00,
-    "colors": ["ivory", "dusty pink", "green"],
+    "price": 30,
+    "colors": [
+      "ivory",
+      "dusty pink",
+      "green"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-15"
   },
   {
     "id": "lst_014",
     "title": "Leather Belt — Brown, Braided",
     "description": "Genuine leather braided belt. Adjustable, multiple holes. Classic Western buckle. Can be dressed up or down.",
     "category": "accessories",
-    "style_tags": ["vintage", "western", "classic", "earth tones"],
-    "size": "One Size (adjustable)",
+    "style_tags": [
+      "vintage",
+      "western",
+      "classic",
+      "earth tones"
+    ],
+    "size": "One Size",
     "condition": "excellent",
-    "price": 12.00,
-    "colors": ["brown"],
+    "price": 12,
+    "colors": [
+      "brown"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-05-12"
   },
   {
     "id": "lst_015",
     "title": "Vintage Graphic Hoodie — Faded Black",
     "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
     "category": "tops",
-    "style_tags": ["vintage", "grunge", "graphic", "streetwear"],
+    "style_tags": [
+      "vintage",
+      "grunge",
+      "graphic tee",
+      "streetwear"
+    ],
     "size": "L",
     "condition": "fair",
-    "price": 26.00,
-    "colors": ["black", "charcoal"],
+    "price": 26,
+    "colors": [
+      "black",
+      "charcoal"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-19"
   },
   {
     "id": "lst_016",
     "title": "High-Waisted Denim Shorts — Cutoff",
     "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
     "category": "bottoms",
-    "style_tags": ["vintage", "denim", "summer", "classic"],
+    "style_tags": [
+      "vintage",
+      "denim",
+      "summer",
+      "classic"
+    ],
     "size": "W27",
     "condition": "good",
-    "price": 24.00,
-    "colors": ["light blue", "blue"],
+    "price": 24,
+    "colors": [
+      "light blue",
+      "blue"
+    ],
     "brand": "Levi's",
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-07-22"
   },
   {
     "id": "lst_017",
     "title": "Mesh Long-Sleeve Top — Black",
     "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
     "category": "tops",
-    "style_tags": ["y2k", "grunge", "goth", "layering"],
+    "style_tags": [
+      "y2k",
+      "grunge",
+      "goth",
+      "layering"
+    ],
     "size": "S/M",
     "condition": "excellent",
-    "price": 15.00,
-    "colors": ["black"],
+    "price": 15,
+    "colors": [
+      "black"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-30"
   },
   {
     "id": "lst_018",
     "title": "Vintage Linen Blazer — Cream",
     "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
     "category": "outerwear",
-    "style_tags": ["vintage", "classic", "linen", "cottagecore", "minimal"],
+    "style_tags": [
+      "vintage",
+      "classic",
+      "linen",
+      "cottagecore",
+      "minimal"
+    ],
     "size": "M/L",
     "condition": "excellent",
-    "price": 38.00,
-    "colors": ["cream", "off-white"],
+    "price": 38,
+    "colors": [
+      "cream",
+      "off-white"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-05-25"
   },
   {
     "id": "lst_019",
     "title": "Platform Sneakers — White Chunky Sole",
     "description": "White chunky platform sneakers. Very late 90s / early 2000s energy. Velcro straps. True to size. Some sole yellowing.",
     "category": "shoes",
-    "style_tags": ["y2k", "platform", "90s", "streetwear"],
+    "style_tags": [
+      "y2k",
+      "platform",
+      "90s",
+      "streetwear"
+    ],
     "size": "US 8",
     "condition": "good",
-    "price": 48.00,
-    "colors": ["white"],
+    "price": 48,
+    "colors": [
+      "white"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-06-11"
   },
   {
     "id": "lst_020",
     "title": "Henley Long Sleeve — Washed Burgundy",
     "description": "Soft washed henley in a rich burgundy. Three-button placket. Slightly shrunken/cropped fit. 100% cotton.",
     "category": "tops",
-    "style_tags": ["vintage", "basics", "earth tones", "classic"],
+    "style_tags": [
+      "vintage",
+      "basics",
+      "earth tones",
+      "classic"
+    ],
     "size": "M",
     "condition": "excellent",
-    "price": 16.00,
-    "colors": ["burgundy", "wine"],
+    "price": 16,
+    "colors": [
+      "burgundy",
+      "wine"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-07-03"
   },
   {
     "id": "lst_021",
     "title": "Straight Leg Khaki Trousers — Olive",
     "description": "Olive straight-leg trousers. High-waisted, with a center crease. Lightweight material, great for transitional weather.",
     "category": "bottoms",
-    "style_tags": ["earth tones", "classic", "minimal", "vintage"],
+    "style_tags": [
+      "earth tones",
+      "classic",
+      "minimal",
+      "vintage"
+    ],
     "size": "W30",
     "condition": "excellent",
-    "price": 29.00,
-    "colors": ["olive", "green"],
+    "price": 29,
+    "colors": [
+      "olive",
+      "green"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-05-20"
   },
   {
     "id": "lst_022",
     "title": "90s Leather Bomber — Black",
     "description": "Genuine leather bomber jacket. Classic 90s silhouette, slightly boxy. Ribbed collar, cuffs, and hem. Some creasing from age — adds character.",
     "category": "outerwear",
-    "style_tags": ["90s", "vintage", "leather", "classic", "grunge"],
+    "style_tags": [
+      "90s",
+      "vintage",
+      "classic",
+      "grunge"
+    ],
     "size": "M",
     "condition": "good",
-    "price": 75.00,
-    "colors": ["black"],
+    "price": 75,
+    "colors": [
+      "black"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-05"
   },
   {
     "id": "lst_023",
     "title": "Crochet Halter Top — Cream",
     "description": "Handmade-looking crochet halter. Ties at the neck and back. Perfect for layering over a tank in summer.",
     "category": "tops",
-    "style_tags": ["cottagecore", "boho", "crochet", "summer"],
+    "style_tags": [
+      "cottagecore",
+      "boho",
+      "crochet",
+      "summer"
+    ],
     "size": "S/M",
     "condition": "excellent",
-    "price": 22.00,
-    "colors": ["cream", "off-white"],
+    "price": 22,
+    "colors": [
+      "cream",
+      "off-white"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-18"
   },
   {
     "id": "lst_024",
     "title": "Vintage Polo Shirt — Forest Green",
     "description": "Classic polo in forest green. Short sleeve, ribbed collar. Slightly boxy. The kind of piece that goes with everything.",
     "category": "tops",
-    "style_tags": ["vintage", "preppy", "classic", "earth tones"],
+    "style_tags": [
+      "vintage",
+      "preppy",
+      "classic",
+      "earth tones"
+    ],
     "size": "M",
     "condition": "good",
-    "price": 18.00,
-    "colors": ["green", "forest green"],
+    "price": 18,
+    "colors": [
+      "green",
+      "forest green"
+    ],
     "brand": "Ralph Lauren",
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-06-22"
   },
   {
     "id": "lst_025",
     "title": "Wide-Leg Linen Trousers — Natural",
     "description": "Relaxed wide-leg linen trousers in a natural/undyed color. Drawstring waist. Very breathable. Sold as a large but cut more like a medium.",
     "category": "bottoms",
-    "style_tags": ["cottagecore", "minimal", "linen", "earth tones", "summer"],
+    "style_tags": [
+      "cottagecore",
+      "minimal",
+      "linen",
+      "earth tones",
+      "summer"
+    ],
     "size": "M/L",
     "condition": "excellent",
-    "price": 34.00,
-    "colors": ["natural", "ecru", "tan"],
+    "price": 34,
+    "colors": [
+      "natural",
+      "ecru",
+      "tan"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-05-15"
   },
   {
     "id": "lst_026",
     "title": "Biker Shorts — Black, Shiny",
     "description": "Shiny black biker shorts in a slightly glossy material. High-waisted. Y2K-coded. Can be styled athletic or fashion.",
     "category": "bottoms",
-    "style_tags": ["y2k", "athletic", "streetwear", "2000s"],
+    "style_tags": [
+      "y2k",
+      "athletic",
+      "streetwear",
+      "2000s"
+    ],
     "size": "S",
     "condition": "excellent",
-    "price": 14.00,
-    "colors": ["black"],
+    "price": 14,
+    "colors": [
+      "black"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-08"
   },
   {
     "id": "lst_027",
     "title": "Oversized College Crewneck — Faded Red",
     "description": "Classic college-style crewneck in a beautifully faded red. No school name — just a plain athletic crewneck. Roomy fit.",
     "category": "tops",
-    "style_tags": ["vintage", "athletic", "oversized", "classic"],
+    "style_tags": [
+      "vintage",
+      "athletic",
+      "oversized",
+      "classic"
+    ],
     "size": "XL",
     "condition": "good",
-    "price": 21.00,
-    "colors": ["red", "faded red"],
+    "price": 21,
+    "colors": [
+      "red",
+      "faded red"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-06-16"
   },
   {
     "id": "lst_028",
     "title": "Suede Chelsea Boots — Tan",
     "description": "Tan suede Chelsea boots with elastic side panels. Stacked heel. Some scuffing on the toe — can be brushed out with suede cleaner.",
     "category": "shoes",
-    "style_tags": ["vintage", "classic", "western", "earth tones"],
+    "style_tags": [
+      "vintage",
+      "classic",
+      "western",
+      "earth tones"
+    ],
     "size": "US 8.5",
     "condition": "fair",
-    "price": 44.00,
-    "colors": ["tan", "camel"],
+    "price": 44,
+    "colors": [
+      "tan",
+      "camel"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-05-27"
   },
   {
     "id": "lst_029",
     "title": "Silk Button-Down — Sage Green",
     "description": "Loose silk (feel) button-down in sage green. Long sleeve, can be worn open as a layer or fully buttoned. Very flowy.",
     "category": "tops",
-    "style_tags": ["vintage", "minimal", "earth tones", "cottagecore"],
+    "style_tags": [
+      "vintage",
+      "minimal",
+      "earth tones",
+      "cottagecore"
+    ],
     "size": "M",
     "condition": "excellent",
-    "price": 28.00,
-    "colors": ["sage", "green"],
+    "price": 28,
+    "colors": [
+      "sage",
+      "green"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-25"
   },
   {
     "id": "lst_030",
     "title": "Vintage Knit Vest — Argyle Brown/Cream",
     "description": "Classic argyle knit vest in brown and cream. Fits medium. V-neck. Ideal for the dark academia or preppy vintage aesthetic.",
     "category": "tops",
-    "style_tags": ["vintage", "preppy", "knitwear", "dark academia", "earth tones"],
+    "style_tags": [
+      "vintage",
+      "preppy",
+      "knitwear",
+      "dark academia",
+      "earth tones"
+    ],
     "size": "M",
     "condition": "good",
-    "price": 25.00,
-    "colors": ["brown", "cream", "tan"],
+    "price": 25,
+    "colors": [
+      "brown",
+      "cream",
+      "tan"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-06-01"
   },
   {
     "id": "lst_031",
     "title": "Baggy Carpenter Jeans — Dark Wash",
     "description": "Baggy carpenter jeans with hammer loop on the side. Dark wash. Sits at the waist. Major 90s workwear vibes.",
     "category": "bottoms",
-    "style_tags": ["90s", "vintage", "streetwear", "baggy", "workwear"],
+    "style_tags": [
+      "90s",
+      "vintage",
+      "streetwear",
+      "baggy",
+      "workwear"
+    ],
     "size": "W32",
     "condition": "good",
-    "price": 36.00,
-    "colors": ["dark blue", "indigo"],
+    "price": 36,
+    "colors": [
+      "dark blue",
+      "indigo"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-12"
   },
   {
     "id": "lst_032",
     "title": "Shacket — Olive Canvas",
     "description": "Olive canvas shacket — thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
     "category": "outerwear",
-    "style_tags": ["earth tones", "classic", "layering", "minimal"],
+    "style_tags": [
+      "earth tones",
+      "classic",
+      "layering",
+      "minimal"
+    ],
     "size": "M/L",
     "condition": "excellent",
-    "price": 33.00,
-    "colors": ["olive", "green"],
+    "price": 33,
+    "colors": [
+      "olive",
+      "green"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-05-19"
   },
   {
     "id": "lst_033",
     "title": "Vintage Band Tee — Faded Grey",
     "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
     "category": "tops",
-    "style_tags": ["vintage", "grunge", "band tee", "graphic tee", "streetwear"],
+    "style_tags": [
+      "vintage",
+      "grunge",
+      "band tee",
+      "graphic tee",
+      "streetwear"
+    ],
     "size": "L",
     "condition": "fair",
-    "price": 19.00,
-    "colors": ["grey", "charcoal"],
+    "price": 19,
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-06-27"
   },
   {
     "id": "lst_034",
     "title": "Bucket Hat — Reversible, Brown Plaid",
     "description": "Reversible bucket hat — plaid on one side, solid tan on the other. Unstructured brim. One size fits most.",
     "category": "accessories",
-    "style_tags": ["90s", "streetwear", "vintage", "accessories"],
+    "style_tags": [
+      "90s",
+      "streetwear",
+      "vintage"
+    ],
     "size": "One Size",
     "condition": "excellent",
-    "price": 14.00,
-    "colors": ["brown", "tan", "plaid"],
+    "price": 14,
+    "colors": [
+      "brown",
+      "tan",
+      "plaid"
+    ],
     "brand": null,
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-07-28"
   },
   {
     "id": "lst_035",
     "title": "Low-Top Canvas Sneakers — Off-White",
     "description": "Classic low-top canvas sneakers in off-white. Very minimal. Some light yellowing on the sole edges from age. Size 9.",
     "category": "shoes",
-    "style_tags": ["classic", "minimal", "streetwear", "basics"],
+    "style_tags": [
+      "classic",
+      "minimal",
+      "streetwear",
+      "basics"
+    ],
     "size": "US 9",
     "condition": "good",
-    "price": 20.00,
-    "colors": ["off-white", "cream"],
+    "price": 20,
+    "colors": [
+      "off-white",
+      "cream"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-06-09"
   },
   {
     "id": "lst_036",
     "title": "Velvet Blazer — Emerald Green",
     "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
     "category": "outerwear",
-    "style_tags": ["vintage", "statement", "feminine", "glam"],
+    "style_tags": [
+      "vintage",
+      "statement",
+      "feminine",
+      "glam"
+    ],
     "size": "S",
     "condition": "good",
-    "price": 52.00,
-    "colors": ["emerald", "green"],
+    "price": 52,
+    "colors": [
+      "emerald",
+      "green"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-05-24"
   },
   {
     "id": "lst_037",
     "title": "Straight Leg Black Jeans — Faded",
     "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
     "category": "bottoms",
-    "style_tags": ["vintage", "classic", "grunge", "denim"],
+    "style_tags": [
+      "vintage",
+      "classic",
+      "grunge",
+      "denim"
+    ],
     "size": "W28",
     "condition": "good",
-    "price": 30.00,
-    "colors": ["black", "faded black"],
+    "price": 30,
+    "colors": [
+      "black",
+      "faded black"
+    ],
     "brand": "Levi's",
-    "platform": "thredUp"
+    "platform": "thredUp",
+    "date_listed": "2026-06-13"
   },
   {
     "id": "lst_038",
     "title": "Denim Vest — Medium Wash, Studded",
     "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
     "category": "outerwear",
-    "style_tags": ["grunge", "vintage", "denim", "customized", "rock"],
+    "style_tags": [
+      "grunge",
+      "vintage",
+      "denim",
+      "customized",
+      "rock"
+    ],
     "size": "M",
     "condition": "good",
-    "price": 27.00,
-    "colors": ["medium blue"],
+    "price": 27,
+    "colors": [
+      "medium blue"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-07-30"
   },
   {
     "id": "lst_039",
     "title": "Mini Shoulder Bag — Tan Leather",
     "description": "Tiny structured shoulder bag in tan leather. Gold hardware. Fits a phone, keys, and a card wallet. Adjustable strap.",
     "category": "accessories",
-    "style_tags": ["vintage", "classic", "y2k", "accessories"],
+    "style_tags": [
+      "vintage",
+      "classic",
+      "y2k"
+    ],
     "size": "One Size",
     "condition": "excellent",
-    "price": 38.00,
-    "colors": ["tan", "camel"],
+    "price": 38,
+    "colors": [
+      "tan",
+      "camel"
+    ],
     "brand": null,
-    "platform": "poshmark"
+    "platform": "poshmark",
+    "date_listed": "2026-05-31"
   },
   {
     "id": "lst_040",
     "title": "Tie-Dye Long Sleeve — Pastel",
     "description": "Hand tie-dyed long sleeve in soft pastel hues — pink, lavender, and mint. Oversized unisex fit. 100% cotton.",
     "category": "tops",
-    "style_tags": ["tie-dye", "cottagecore", "colorful", "streetwear"],
+    "style_tags": [
+      "tie-dye",
+      "cottagecore",
+      "colorful",
+      "streetwear"
+    ],
     "size": "L/XL",
     "condition": "excellent",
-    "price": 17.00,
-    "colors": ["pink", "lavender", "mint"],
+    "price": 17,
+    "colors": [
+      "pink",
+      "lavender",
+      "mint"
+    ],
     "brand": null,
-    "platform": "depop"
+    "platform": "depop",
+    "date_listed": "2026-08-04"
+  },
+  {
+    "id": "lst_041",
+    "title": "Vintage Levi's 501 Straight Leg Jeans",
+    "description": "Classic 90s Levi's 501s in medium wash denim. Some light fading at the knees and slight whiskering, otherwise solid condition with lots of life left.",
+    "category": "bottoms",
+    "style_tags": [
+      "vintage",
+      "denim",
+      "90s",
+      "classic"
+    ],
+    "size": "W30 L30",
+    "condition": "good",
+    "price": 38,
+    "colors": [
+      "blue"
+    ],
+    "brand": "Levi's",
+    "platform": "depop",
+    "date_listed": "2026-06-02"
+  },
+  {
+    "id": "lst_042",
+    "title": "Oversized Graphic Band Tee",
+    "description": "Faded black band tee with cracked print, thrifted years ago and worn soft. Minor pilling under the arms but no holes.",
+    "category": "tops",
+    "style_tags": [
+      "band tee",
+      "graphic tee",
+      "oversized",
+      "grunge"
+    ],
+    "size": "L",
+    "condition": "fair",
+    "price": 16,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-05-18"
+  },
+  {
+    "id": "lst_043",
+    "title": "Cropped Flannel Button Up",
+    "description": "Red and black plaid flannel cropped to hit at the waist, great layering piece for fall. Excellent condition, barely worn.",
+    "category": "tops",
+    "style_tags": [
+      "flannel",
+      "layering",
+      "90s",
+      "grunge"
+    ],
+    "size": "M",
+    "condition": "excellent",
+    "price": 24,
+    "colors": [
+      "red",
+      "black"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-07-11"
+  },
+  {
+    "id": "lst_044",
+    "title": "Cargo Utility Pants in Olive",
+    "category": "bottoms",
+    "description": "Baggy cargo pants with multiple pockets, streetwear staple. Good condition with slight fraying at the hem, easily fixed or left as-is for the look.",
+    "style_tags": [
+      "cargo",
+      "streetwear",
+      "baggy",
+      "workwear"
+    ],
+    "size": "W32 L32",
+    "condition": "good",
+    "price": 32,
+    "colors": [
+      "green"
+    ],
+    "brand": "Dickies",
+    "platform": "thredUp",
+    "date_listed": "2026-04-29"
+  },
+  {
+    "id": "lst_045",
+    "title": "Cozy Chunky Knit Sweater",
+    "description": "Oversized cream knit sweater, perfect for cottagecore layering. Excellent condition, no pilling, super soft hand feel.",
+    "category": "tops",
+    "style_tags": [
+      "knitwear",
+      "cozy",
+      "cottagecore",
+      "oversized"
+    ],
+    "size": "M/L",
+    "condition": "excellent",
+    "price": 29,
+    "colors": [
+      "cream"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-06-20"
+  },
+  {
+    "id": "lst_046",
+    "title": "Y2K Low Rise Denim Mini Skirt",
+    "description": "Iconic y2k low rise denim mini with frayed hem. Good used condition, some fading consistent with age but no major flaws.",
+    "category": "bottoms",
+    "style_tags": [
+      "y2k",
+      "denim",
+      "2000s",
+      "feminine"
+    ],
+    "size": "W26",
+    "condition": "good",
+    "price": 26,
+    "colors": [
+      "blue"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-05-30"
+  },
+  {
+    "id": "lst_047",
+    "title": "Linen Button Down in Sage",
+    "description": "Breezy linen shirt perfect for summer, relaxed fit. Excellent condition, worn twice, no stains or wrinkle damage.",
+    "category": "tops",
+    "style_tags": [
+      "linen",
+      "summer",
+      "minimal",
+      "basics"
+    ],
+    "size": "S",
+    "condition": "excellent",
+    "price": 27,
+    "colors": [
+      "green"
+    ],
+    "brand": "Everlane",
+    "platform": "depop",
+    "date_listed": "2026-07-25"
+  },
+  {
+    "id": "lst_048",
+    "title": "Wide Leg Trousers in Earth Tone Brown",
+    "description": "High waisted wide leg trousers, tailored look with dark academia vibes. Good condition, minor pilling on the seat but otherwise great condition.",
+    "category": "bottoms",
+    "style_tags": [
+      "earth tones",
+      "dark academia",
+      "preppy",
+      "classic"
+    ],
+    "size": "W28 L32",
+    "condition": "good",
+    "price": 34,
+    "colors": [
+      "brown"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-06-11"
+  },
+  {
+    "id": "lst_049",
+    "title": "Tie-Dye Crop Top Handmade",
+    "description": "One of a kind tie-dye crop top, hand dyed in swirling purple and blue. Excellent condition, worn once for a festival.",
+    "category": "tops",
+    "style_tags": [
+      "tie-dye",
+      "colorful",
+      "boho",
+      "customized"
+    ],
+    "size": "S/M",
+    "condition": "excellent",
+    "price": 18,
+    "colors": [
+      "purple",
+      "blue"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-05-08"
+  },
+  {
+    "id": "lst_050",
+    "title": "Plaid Pleated Mini Skirt Preppy Style",
+    "description": "Classic schoolgirl style pleated mini in navy plaid, dark academia meets preppy. Good condition with slight fading in the pleats.",
+    "category": "bottoms",
+    "style_tags": [
+      "preppy",
+      "dark academia",
+      "classic",
+      "feminine"
+    ],
+    "size": "S",
+    "condition": "good",
+    "price": 22,
+    "colors": [
+      "navy",
+      "black"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-04-15"
+  },
+  {
+    "id": "lst_051",
+    "title": "Vintage Western Pearl Snap Shirt",
+    "description": "Retro western shirt with pearl snap buttons and embroidered yoke detail. Good condition, some fading on the shoulders from wear.",
+    "category": "tops",
+    "style_tags": [
+      "western",
+      "vintage",
+      "classic",
+      "workwear"
+    ],
+    "size": "L",
+    "condition": "good",
+    "price": 28,
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "brand": "Wrangler",
+    "platform": "thredUp",
+    "date_listed": "2026-06-27"
+  },
+  {
+    "id": "lst_052",
+    "title": "Black Faux Leather Moto Pants",
+    "description": "Edgy faux leather pants with a goth streetwear edge, skinny fit. Fair condition, visible creasing at the knees and slight cracking on the coating.",
+    "category": "bottoms",
+    "style_tags": [
+      "goth",
+      "streetwear",
+      "statement",
+      "glam"
+    ],
+    "size": "W28",
+    "condition": "fair",
+    "price": 24,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-05-22"
+  },
+  {
+    "id": "lst_053",
+    "title": "Crochet Cropped Cardigan",
+    "description": "Handmade-look crochet cardigan in cream, boho cottagecore staple. Excellent condition, no snags or loose threads.",
+    "category": "tops",
+    "style_tags": [
+      "crochet",
+      "boho",
+      "cottagecore",
+      "feminine"
+    ],
+    "size": "M",
+    "condition": "excellent",
+    "price": 26,
+    "colors": [
+      "cream"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-07-02"
+  },
+  {
+    "id": "lst_054",
+    "title": "Athletic Track Pants with Side Stripe",
+    "description": "Classic 90s style track pants, color block stripe down the leg. Good condition, minor pilling but structurally solid.",
+    "category": "bottoms",
+    "style_tags": [
+      "athletic",
+      "90s",
+      "color block",
+      "streetwear"
+    ],
+    "size": "L",
+    "condition": "good",
+    "price": 21,
+    "colors": [
+      "black",
+      "white"
+    ],
+    "brand": "Adidas",
+    "platform": "thredUp",
+    "date_listed": "2026-04-08"
+  },
+  {
+    "id": "lst_055",
+    "title": "Floral Puff Sleeve Blouse",
+    "description": "Romantic floral blouse with statement puff sleeves, feminine silhouette. Excellent condition, worn a handful of times.",
+    "category": "tops",
+    "style_tags": [
+      "floral",
+      "feminine",
+      "glam",
+      "statement"
+    ],
+    "size": "S",
+    "condition": "excellent",
+    "price": 25,
+    "colors": [
+      "pink",
+      "green"
+    ],
+    "brand": "Zara",
+    "platform": "poshmark",
+    "date_listed": "2026-06-14"
+  },
+  {
+    "id": "lst_056",
+    "title": "Distressed Boyfriend Jeans",
+    "description": "Relaxed boyfriend fit jeans with intentional distressing at the knees. Good condition, distressing is by design not wear, no unintended damage.",
+    "category": "bottoms",
+    "style_tags": [
+      "denim",
+      "baggy",
+      "streetwear",
+      "90s"
+    ],
+    "size": "W29 L30",
+    "condition": "good",
+    "price": 30,
+    "colors": [
+      "blue"
+    ],
+    "brand": "American Eagle",
+    "platform": "depop",
+    "date_listed": "2026-05-03"
+  },
+  {
+    "id": "lst_057",
+    "title": "Basic Ribbed Long Sleeve Top",
+    "description": "Simple ribbed knit long sleeve in minimal style, great layering basic. Excellent condition, no pilling or stretching.",
+    "category": "tops",
+    "style_tags": [
+      "minimal",
+      "basics",
+      "layering",
+      "knitwear"
+    ],
+    "size": "M",
+    "condition": "excellent",
+    "price": 16,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-07-19"
+  },
+  {
+    "id": "lst_058",
+    "title": "Corduroy Flare Pants in Rust",
+    "description": "70s inspired corduroy flares in a rust earth tone, wide leg cut. Good condition, slight wear on the wale at the seat.",
+    "category": "bottoms",
+    "style_tags": [
+      "vintage",
+      "earth tones",
+      "classic",
+      "boho"
+    ],
+    "size": "W27 L31",
+    "condition": "good",
+    "price": 33,
+    "colors": [
+      "orange",
+      "brown"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-06-08"
+  },
+  {
+    "id": "lst_059",
+    "title": "Graphic Tee with Rock Band Print",
+    "description": "Faded rock band graphic tee, cracked lettering gives it authentic vintage feel. Fair condition, small hole near the hem noted in photos.",
+    "category": "tops",
+    "style_tags": [
+      "band tee",
+      "rock",
+      "graphic tee",
+      "vintage"
+    ],
+    "size": "XL",
+    "condition": "fair",
+    "price": 15,
+    "colors": [
+      "black",
+      "white"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-05-11"
+  },
+  {
+    "id": "lst_060",
+    "title": "High Waisted Denim Shorts Y2K Style",
+    "description": "Cutoff denim shorts with raw hem, y2k low rise cut. Good condition, minimal fraying beyond intended distressed look.",
+    "category": "bottoms",
+    "style_tags": [
+      "denim",
+      "y2k",
+      "2000s",
+      "summer"
+    ],
+    "size": "W27",
+    "condition": "good",
+    "price": 19,
+    "colors": [
+      "blue"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-04-22"
+  },
+  {
+    "id": "lst_061",
+    "title": "Silk Slip Cami Top in Champagne",
+    "description": "Elegant silk-feel cami with adjustable straps, glam night-out piece. Excellent condition, worn once and hand washed.",
+    "category": "tops",
+    "style_tags": [
+      "glam",
+      "feminine",
+      "minimal",
+      "statement"
+    ],
+    "size": "S/M",
+    "condition": "excellent",
+    "price": 22,
+    "colors": [
+      "beige"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-07-05"
+  },
+  {
+    "id": "lst_062",
+    "title": "Wide Leg Linen Trousers in White",
+    "description": "Flowy linen trousers perfect for summer, elastic waistband for comfort. Good condition, faint yellowing near the waistband from storage.",
+    "category": "bottoms",
+    "style_tags": [
+      "linen",
+      "summer",
+      "minimal",
+      "basics"
+    ],
+    "size": "M",
+    "condition": "good",
+    "price": 28,
+    "colors": [
+      "white"
+    ],
+    "brand": "Zara",
+    "platform": "depop",
+    "date_listed": "2026-06-30"
+  },
+  {
+    "id": "lst_063",
+    "title": "Colorblock Windbreaker Style Tee",
+    "description": "Retro colorblock tee with 90s athletic styling, oversized fit. Excellent condition, vibrant colors haven't faded.",
+    "category": "tops",
+    "style_tags": [
+      "color block",
+      "athletic",
+      "90s",
+      "streetwear"
+    ],
+    "size": "L",
+    "condition": "excellent",
+    "price": 20,
+    "colors": [
+      "blue",
+      "yellow",
+      "black"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-05-26"
+  },
+  {
+    "id": "lst_064",
+    "title": "Dark Wash Skinny Jeans Basic",
+    "description": "No-frills dark wash skinny jeans, versatile everyday basic. Good condition, slight wear at the ankle hem from being stepped on.",
+    "category": "bottoms",
+    "style_tags": [
+      "denim",
+      "basics",
+      "classic",
+      "minimal"
+    ],
+    "size": "W28 L32",
+    "condition": "good",
+    "price": 24,
+    "colors": [
+      "blue"
+    ],
+    "brand": "Old Navy",
+    "platform": "poshmark",
+    "date_listed": "2026-04-17"
+  },
+  {
+    "id": "lst_065",
+    "title": "Vintage Levi's Trucker Jacket - Faded Wash",
+    "description": "Classic denim trucker jacket with authentic fading on sleeves and collar. Some light wear at cuffs but no rips or stains, tons of life left.",
+    "category": "outerwear",
+    "style_tags": [
+      "vintage",
+      "denim",
+      "classic",
+      "90s"
+    ],
+    "size": "M",
+    "condition": "good",
+    "price": 48,
+    "colors": [
+      "blue"
+    ],
+    "brand": "Levi's",
+    "platform": "depop",
+    "date_listed": "2026-06-02"
+  },
+  {
+    "id": "lst_066",
+    "title": "Oversized Flannel Shacket in Earth Tones",
+    "description": "Heavy flannel shirt-jacket hybrid, perfect layering piece for fall. Excellent condition, worn maybe twice.",
+    "category": "outerwear",
+    "style_tags": [
+      "flannel",
+      "layering",
+      "oversized",
+      "earth tones"
+    ],
+    "size": "L",
+    "condition": "excellent",
+    "price": 36,
+    "colors": [
+      "brown",
+      "orange"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-05-14"
+  },
+  {
+    "id": "lst_067",
+    "title": "Y2K Baby Tee Puffer Crop Jacket",
+    "description": "Cropped puffer with that early 2000s silhouette, super cute over graphic tees. Minor pilling on the sleeves but zipper and puff intact.",
+    "category": "outerwear",
+    "style_tags": [
+      "y2k",
+      "2000s",
+      "streetwear",
+      "colorful"
+    ],
+    "size": "S",
+    "condition": "good",
+    "price": 32,
+    "colors": [
+      "pink"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-07-20"
+  },
+  {
+    "id": "lst_068",
+    "title": "Carhartt Workwear Chore Coat, Duck Canvas",
+    "description": "Sturdy duck canvas chore coat, classic workwear staple. Some fading at the elbows from wear but structurally solid.",
+    "category": "outerwear",
+    "style_tags": [
+      "workwear",
+      "vintage",
+      "classic",
+      "earth tones"
+    ],
+    "size": "L",
+    "condition": "good",
+    "price": 65,
+    "colors": [
+      "tan"
+    ],
+    "brand": "Carhartt",
+    "platform": "thredUp",
+    "date_listed": "2026-04-30"
+  },
+  {
+    "id": "lst_069",
+    "title": "Grunge Black Leather Moto Jacket",
+    "description": "Faux leather moto jacket with asymmetric zip, gives major grunge/rock energy. Excellent condition, no cracking on the leather.",
+    "category": "outerwear",
+    "style_tags": [
+      "grunge",
+      "rock",
+      "goth",
+      "statement"
+    ],
+    "size": "M",
+    "condition": "excellent",
+    "price": 58,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-06-25"
+  },
+  {
+    "id": "lst_070",
+    "title": "Cottagecore Cropped Cardigan Coat",
+    "description": "Soft knit cardigan-coat with wooden buttons, cottagecore dream layer. Light pilling under the arms but otherwise cozy and great.",
+    "category": "outerwear",
+    "style_tags": [
+      "cottagecore",
+      "knitwear",
+      "cozy",
+      "feminine"
+    ],
+    "size": "S/M",
+    "condition": "good",
+    "price": 29,
+    "colors": [
+      "cream"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-05-28"
+  },
+  {
+    "id": "lst_071",
+    "title": "North Face Windbreaker, Color Block Design",
+    "description": "Lightweight windbreaker in bold color block panels, great for athletic layering. Excellent shape, no rips, zippers smooth.",
+    "category": "outerwear",
+    "style_tags": [
+      "athletic",
+      "color block",
+      "streetwear",
+      "layering"
+    ],
+    "size": "L",
+    "condition": "excellent",
+    "price": 42,
+    "colors": [
+      "blue",
+      "yellow",
+      "black"
+    ],
+    "brand": "The North Face",
+    "platform": "depop",
+    "date_listed": "2026-07-01"
+  },
+  {
+    "id": "lst_072",
+    "title": "Boho Crochet Kimono Duster",
+    "description": "Long open-front crochet duster, flowy boho statement piece for festival season. Handmade look, a couple loose threads but nothing unraveling.",
+    "category": "outerwear",
+    "style_tags": [
+      "boho",
+      "crochet",
+      "statement",
+      "summer"
+    ],
+    "size": "One Size",
+    "condition": "fair",
+    "price": 26,
+    "colors": [
+      "cream",
+      "brown"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-06-10"
+  },
+  {
+    "id": "lst_073",
+    "title": "Dark Academia Wool Overcoat",
+    "description": "Structured wool blend overcoat, dark academia staple for layering over knitwear. Excellent condition, dry cleaned and ready to wear.",
+    "category": "outerwear",
+    "style_tags": [
+      "dark academia",
+      "classic",
+      "layering",
+      "preppy"
+    ],
+    "size": "M",
+    "condition": "excellent",
+    "price": 72,
+    "colors": [
+      "black"
+    ],
+    "brand": "Ralph Lauren",
+    "platform": "thredUp",
+    "date_listed": "2026-05-05"
+  },
+  {
+    "id": "lst_074",
+    "title": "Tie-Dye Cropped Zip Hoodie Jacket",
+    "description": "Colorful tie-dye zip-up, casual streetwear vibe with cropped fit. Good condition, dye pattern still vibrant, minor pilling inside.",
+    "category": "outerwear",
+    "style_tags": [
+      "tie-dye",
+      "colorful",
+      "streetwear",
+      "oversized"
+    ],
+    "size": "M",
+    "condition": "good",
+    "price": 30,
+    "colors": [
+      "purple",
+      "blue",
+      "pink"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-07-15"
+  },
+  {
+    "id": "lst_075",
+    "title": "Preppy Quilted Barn Jacket, Navy",
+    "description": "Classic quilted barn jacket, preppy and versatile for fall layering. Excellent condition, snaps all functional.",
+    "category": "outerwear",
+    "style_tags": [
+      "preppy",
+      "classic",
+      "layering",
+      "earth tones"
+    ],
+    "size": "M",
+    "condition": "excellent",
+    "price": 55,
+    "colors": [
+      "navy"
+    ],
+    "brand": "J.Crew",
+    "platform": "poshmark",
+    "date_listed": "2026-04-18"
+  },
+  {
+    "id": "lst_076",
+    "title": "Vintage Western Fringe Suede Jacket",
+    "description": "Suede jacket with fringe detail and western yoke stitching, real statement outerwear. Fair condition with some fringe thinning and a small stain on the back.",
+    "category": "outerwear",
+    "style_tags": [
+      "western",
+      "vintage",
+      "statement",
+      "boho"
+    ],
+    "size": "M",
+    "condition": "fair",
+    "price": 45,
+    "colors": [
+      "brown"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-03-22"
+  },
+  {
+    "id": "lst_077",
+    "title": "Cargo Utility Parka with Removable Hood",
+    "description": "Longline cargo parka, tons of pockets, streetwear utility look. Good condition overall, one small snag near the hem.",
+    "category": "outerwear",
+    "style_tags": [
+      "cargo",
+      "streetwear",
+      "oversized",
+      "workwear"
+    ],
+    "size": "XL",
+    "condition": "good",
+    "price": 60,
+    "colors": [
+      "olive"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-06-08"
+  },
+  {
+    "id": "lst_078",
+    "title": "Glam Faux Fur Statement Coat",
+    "description": "Plush faux fur coat, glam night-out statement piece. Excellent condition, fur still fluffy and full, no matting.",
+    "category": "outerwear",
+    "style_tags": [
+      "glam",
+      "statement",
+      "colorful",
+      "2000s"
+    ],
+    "size": "S",
+    "condition": "excellent",
+    "price": 78,
+    "colors": [
+      "white"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-05-30"
+  },
+  {
+    "id": "lst_079",
+    "title": "Nike Air Max 90, Classic Colorway",
+    "description": "Iconic Air Max 90 sneakers in classic colorway, great cushioning left. Good condition, some creasing on the toe box but soles intact.",
+    "category": "shoes",
+    "style_tags": [
+      "athletic",
+      "streetwear",
+      "classic",
+      "basics"
+    ],
+    "size": "US 9",
+    "condition": "good",
+    "price": 45,
+    "colors": [
+      "white",
+      "grey",
+      "red"
+    ],
+    "brand": "Nike",
+    "platform": "depop",
+    "date_listed": "2026-07-02"
+  },
+  {
+    "id": "lst_080",
+    "title": "Doc Martens 1460 Platform Boots, Black",
+    "description": "Chunky platform Docs, grunge and goth wardrobe staple. Excellent condition, minimal scuffing, leather still supple.",
+    "category": "shoes",
+    "style_tags": [
+      "grunge",
+      "goth",
+      "platform",
+      "classic"
+    ],
+    "size": "US 7",
+    "condition": "excellent",
+    "price": 58,
+    "colors": [
+      "black"
+    ],
+    "brand": "Dr. Martens",
+    "platform": "poshmark",
+    "date_listed": "2026-06-14"
+  },
+  {
+    "id": "lst_081",
+    "title": "Vintage Cowboy Western Boots, Brown Leather",
+    "description": "Genuine leather western boots with stitched detailing, broken in perfectly. Good condition, some scuffing at the toe from wear.",
+    "category": "shoes",
+    "style_tags": [
+      "western",
+      "vintage",
+      "classic",
+      "earth tones"
+    ],
+    "size": "US 8",
+    "condition": "good",
+    "price": 40,
+    "colors": [
+      "brown"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-04-25"
+  },
+  {
+    "id": "lst_082",
+    "title": "Y2K Platform Sneakers, Chunky Sole",
+    "description": "Chunky platform sneakers with that y2k club-kid look. Fair condition, sole yellowing slightly but still structurally sound.",
+    "category": "shoes",
+    "style_tags": [
+      "y2k",
+      "platform",
+      "2000s",
+      "statement"
+    ],
+    "size": "US 7.5",
+    "condition": "fair",
+    "price": 24,
+    "colors": [
+      "white"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-07-25"
+  },
+  {
+    "id": "lst_083",
+    "title": "Birkenstock Arizona Sandals, Cork Footbed",
+    "description": "Classic two-strap sandals, cork footbed molded in nicely with wear. Good condition, straps still adjust smoothly.",
+    "category": "shoes",
+    "style_tags": [
+      "basics",
+      "minimal",
+      "summer",
+      "cozy"
+    ],
+    "size": "US 8",
+    "condition": "good",
+    "price": 32,
+    "colors": [
+      "tan"
+    ],
+    "brand": "Birkenstock",
+    "platform": "thredUp",
+    "date_listed": "2026-05-19"
+  },
+  {
+    "id": "lst_084",
+    "title": "Colorful Retro High-Top Sneakers",
+    "description": "Bold color block high-tops, fun statement sneaker for streetwear fits. Excellent condition, laces original and unfrayed.",
+    "category": "shoes",
+    "style_tags": [
+      "color block",
+      "colorful",
+      "streetwear",
+      "statement"
+    ],
+    "size": "US 10",
+    "condition": "excellent",
+    "price": 50,
+    "colors": [
+      "red",
+      "blue",
+      "yellow"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-06-30"
+  },
+  {
+    "id": "lst_085",
+    "title": "Customized Painted Canvas Sneakers",
+    "description": "Hand-painted canvas low tops, one of a kind customized design. Good condition, canvas clean, paint holding up with no flaking.",
+    "category": "shoes",
+    "style_tags": [
+      "customized",
+      "statement",
+      "colorful",
+      "streetwear"
+    ],
+    "size": "US 8.5",
+    "condition": "good",
+    "price": 35,
+    "colors": [
+      "multicolor"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-07-08"
+  },
+  {
+    "id": "lst_086",
+    "title": "Chunky Silver Chain Necklace, Vintage",
+    "description": "Heavy statement chain necklace, real weight to it. Couple tiny scratches from wear but clasp solid and no tarnish.",
+    "category": "accessories",
+    "style_tags": [
+      "vintage",
+      "statement",
+      "goth",
+      "classic"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 22,
+    "colors": [
+      "silver"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-06-14"
+  },
+  {
+    "id": "lst_087",
+    "title": "Coach Leather Crossbody Bag, Small",
+    "description": "Classic Coach crossbody in brown leather, adjustable strap. Corners show light rubbing but interior lining clean, no stains.",
+    "category": "accessories",
+    "style_tags": [
+      "classic",
+      "preppy",
+      "minimal",
+      "basics"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 38,
+    "colors": [
+      "brown"
+    ],
+    "brand": "Coach",
+    "platform": "poshmark",
+    "date_listed": "2026-05-30"
+  },
+  {
+    "id": "lst_088",
+    "title": "Plaid Flannel Scarf, Oversized",
+    "description": "Big cozy flannel scarf, soft brushed cotton. Some pilling near the fringe but still warm and great for layering.",
+    "category": "accessories",
+    "style_tags": [
+      "flannel",
+      "cozy",
+      "layering",
+      "earth tones"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 14,
+    "colors": [
+      "red",
+      "black"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-07-01"
+  },
+  {
+    "id": "lst_089",
+    "title": "Y2K Rhinestone Butterfly Hair Clips Set",
+    "description": "Set of 4 sparkly butterfly clips, total y2k throwback energy. All teeth intact, one rhinestone missing on smallest clip but barely noticeable.",
+    "category": "accessories",
+    "style_tags": [
+      "y2k",
+      "2000s",
+      "glam",
+      "colorful"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 12,
+    "colors": [
+      "pink",
+      "clear"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-06-20"
+  },
+  {
+    "id": "lst_090",
+    "title": "Fossil Brown Leather Belt, Western Buckle",
+    "description": "Genuine leather belt with substantial western-style buckle. Leather has nice broken-in patina, buckle finish slightly worn but functions great.",
+    "category": "accessories",
+    "style_tags": [
+      "western",
+      "workwear",
+      "vintage",
+      "earth tones"
+    ],
+    "size": "M",
+    "condition": "good",
+    "price": 24,
+    "colors": [
+      "brown"
+    ],
+    "brand": "Fossil",
+    "platform": "poshmark",
+    "date_listed": "2026-05-18"
+  },
+  {
+    "id": "lst_091",
+    "title": "Crochet Sun Hat, Handmade Look",
+    "description": "Wide brim crochet hat, breathable for summer days out. Minor loose thread at brim edge but structure holds shape well.",
+    "category": "accessories",
+    "style_tags": [
+      "crochet",
+      "boho",
+      "summer",
+      "cottagecore"
+    ],
+    "size": "One Size",
+    "condition": "excellent",
+    "price": 18,
+    "colors": [
+      "cream"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-06-05"
+  },
+  {
+    "id": "lst_092",
+    "title": "Ray-Ban Wayfarer Sunglasses, Classic Black",
+    "description": "Iconic wayfarer frame, lenses scratch free. Small scuff on left arm hinge from case storage, otherwise excellent shape.",
+    "category": "accessories",
+    "style_tags": [
+      "classic",
+      "minimal",
+      "90s",
+      "basics"
+    ],
+    "size": "One Size",
+    "condition": "excellent",
+    "price": 32,
+    "colors": [
+      "black"
+    ],
+    "brand": "Ray-Ban",
+    "platform": "depop",
+    "date_listed": "2026-07-10"
+  },
+  {
+    "id": "lst_093",
+    "title": "Tie-Dye Bandana Bundle, 3 Pack",
+    "description": "Three cotton bandanas in swirled tie-dye patterns, versatile for hair or neck. Colors still vibrant, no fading from wash.",
+    "category": "accessories",
+    "style_tags": [
+      "tie-dye",
+      "colorful",
+      "boho",
+      "summer"
+    ],
+    "size": "One Size",
+    "condition": "excellent",
+    "price": 13,
+    "colors": [
+      "purple",
+      "orange",
+      "blue"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-07-22"
+  },
+  {
+    "id": "lst_094",
+    "title": "Dark Academia Structured Beret, Wool Blend",
+    "description": "Wool beret with clean structured shape, dark academia staple. Light bobbling on underside from friction but front face pristine.",
+    "category": "accessories",
+    "style_tags": [
+      "dark academia",
+      "classic",
+      "vintage",
+      "preppy"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 16,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-04-28"
+  },
+  {
+    "id": "lst_095",
+    "title": "Kate Spade Wallet, Floral Print",
+    "description": "Compact floral wallet, plenty of card slots and zip coin pouch. Corner edges slightly worn but zipper glides smoothly.",
+    "category": "accessories",
+    "style_tags": [
+      "floral",
+      "feminine",
+      "preppy",
+      "glam"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 26,
+    "colors": [
+      "pink",
+      "green"
+    ],
+    "brand": "Kate Spade",
+    "platform": "poshmark",
+    "date_listed": "2026-05-09"
+  },
+  {
+    "id": "lst_096",
+    "title": "Grunge Studded Choker, Faux Leather",
+    "description": "Faux leather choker with metal studs, adjustable snap closure. Studs all secure, slight crease in band from folding but not visible worn.",
+    "category": "accessories",
+    "style_tags": [
+      "grunge",
+      "goth",
+      "statement",
+      "90s"
+    ],
+    "size": "One Size",
+    "condition": "excellent",
+    "price": 11,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-06-30"
+  },
+  {
+    "id": "lst_097",
+    "title": "Cargo Utility Belt Bag, Nylon",
+    "description": "Nylon fanny pack with multiple zip pockets, streetwear favorite. Straps show light fading from sun but zippers all work fine.",
+    "category": "accessories",
+    "style_tags": [
+      "cargo",
+      "streetwear",
+      "workwear",
+      "athletic"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 20,
+    "colors": [
+      "olive"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-06-11"
+  },
+  {
+    "id": "lst_098",
+    "title": "Knit Beanie with Pom, Cozy Winter",
+    "description": "Thick knit beanie, oversized pom on top. Some stretching around brim from repeated wear but still snug fit and warm.",
+    "category": "accessories",
+    "style_tags": [
+      "knitwear",
+      "cozy",
+      "oversized",
+      "earth tones"
+    ],
+    "size": "One Size",
+    "condition": "fair",
+    "price": 10,
+    "colors": [
+      "burgundy"
+    ],
+    "brand": null,
+    "platform": "thredUp",
+    "date_listed": "2026-05-22"
+  },
+  {
+    "id": "lst_099",
+    "title": "Color Block Statement Earrings, Acrylic",
+    "description": "Bold acrylic drop earrings in color block design, lightweight to wear. One earring has faint surface scratch, barely visible once on.",
+    "category": "accessories",
+    "style_tags": [
+      "color block",
+      "statement",
+      "glam",
+      "colorful"
+    ],
+    "size": "One Size",
+    "condition": "good",
+    "price": 15,
+    "colors": [
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "brand": null,
+    "platform": "poshmark",
+    "date_listed": "2026-07-05"
+  },
+  {
+    "id": "lst_100",
+    "title": "Vintage Band Tee Patch Tote Bag, Customized",
+    "description": "Canvas tote hand customized with vintage rock band patches, one of a kind. Canvas shows general softness from washing but seams all strong.",
+    "category": "accessories",
+    "style_tags": [
+      "band tee",
+      "rock",
+      "customized",
+      "vintage"
+    ],
+    "size": "One Size",
+    "condition": "fair",
+    "price": 19,
+    "colors": [
+      "black",
+      "white"
+    ],
+    "brand": null,
+    "platform": "depop",
+    "date_listed": "2026-06-25"
   }
 ]
