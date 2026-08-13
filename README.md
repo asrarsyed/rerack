@@ -6,7 +6,9 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![tests](https://github.com/asrarsyed/rerack/actions/workflows/tests.yml/badge.svg)](https://github.com/asrarsyed/rerack/actions/workflows/tests.yml)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+![Tech](https://img.shields.io/badge/made%20with-Python-blue.svg)
+
+[Live Demo](#) | [Report Bug](https://github.com/asrarsyed/rerack/issues) | [Request Feature](https://github.com/asrarsyed/rerack/issues)
 
 </div>
 
